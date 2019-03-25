@@ -13,6 +13,16 @@
 		233C40D02230142D00842671 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 233C40CF2230142D00842671 /* Assets.xcassets */; };
 		233C40D32230142D00842671 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 233C40D12230142D00842671 /* LaunchScreen.storyboard */; };
 		233C40D62230142D00842671 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 233C40D52230142D00842671 /* main.m */; };
+		233C40DE2230BE7400842671 /* RecordingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 233C40DD2230BE7400842671 /* RecordingViewController.m */; };
+		233C40E22230BEF900842671 /* DrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = 233C40E12230BEF900842671 /* DrawView.m */; };
+		233C40E52230BF3C00842671 /* MyBezierPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 233C40E42230BF3C00842671 /* MyBezierPath.m */; };
+		233C40E82230FC7A00842671 /* PlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 233C40E72230FC7A00842671 /* PlayViewController.m */; };
+		233C40EB22315F6000842671 /* PlayAnimationClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 233C40EA22315F6000842671 /* PlayAnimationClass.m */; };
+		233C40EF2232561D00842671 /* AudioManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 233C40EE2232561D00842671 /* AudioManager.m */; };
+		2393DD38223281C400F027EF /* FileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2393DD37223281C400F027EF /* FileManager.m */; };
+		2393DD3F2233A85800F027EF /* UIToast.m in Sources */ = {isa = PBXBuildFile; fileRef = 2393DD3D2233A85800F027EF /* UIToast.m */; };
+		2393DD422233CB0C00F027EF /* AudioListVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2393DD402233CB0C00F027EF /* AudioListVC.m */; };
+		2393DD452233CBED00F027EF /* NSDate+Formatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 2393DD442233CBED00F027EF /* NSDate+Formatter.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +36,27 @@
 		233C40D22230142D00842671 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		233C40D42230142D00842671 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		233C40D52230142D00842671 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		233C40DC2230BE7400842671 /* RecordingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RecordingViewController.h; sourceTree = "<group>"; };
+		233C40DD2230BE7400842671 /* RecordingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RecordingViewController.m; sourceTree = "<group>"; };
+		233C40E02230BEF900842671 /* DrawView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DrawView.h; sourceTree = "<group>"; };
+		233C40E12230BEF900842671 /* DrawView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrawView.m; sourceTree = "<group>"; };
+		233C40E32230BF3C00842671 /* MyBezierPath.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyBezierPath.h; sourceTree = "<group>"; };
+		233C40E42230BF3C00842671 /* MyBezierPath.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyBezierPath.m; sourceTree = "<group>"; };
+		233C40E62230FC7A00842671 /* PlayViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlayViewController.h; sourceTree = "<group>"; };
+		233C40E72230FC7A00842671 /* PlayViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlayViewController.m; sourceTree = "<group>"; };
+		233C40E922315F6000842671 /* PlayAnimationClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlayAnimationClass.h; sourceTree = "<group>"; };
+		233C40EA22315F6000842671 /* PlayAnimationClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlayAnimationClass.m; sourceTree = "<group>"; };
+		233C40ED2232561D00842671 /* AudioManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AudioManager.h; sourceTree = "<group>"; };
+		233C40EE2232561D00842671 /* AudioManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AudioManager.m; sourceTree = "<group>"; };
+		2393DD36223281C400F027EF /* FileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileManager.h; sourceTree = "<group>"; };
+		2393DD37223281C400F027EF /* FileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileManager.m; sourceTree = "<group>"; };
+		2393DD392232827C00F027EF /* Conf.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Conf.h; sourceTree = "<group>"; };
+		2393DD3D2233A85800F027EF /* UIToast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIToast.m; sourceTree = "<group>"; };
+		2393DD3E2233A85800F027EF /* UIToast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIToast.h; sourceTree = "<group>"; };
+		2393DD402233CB0C00F027EF /* AudioListVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioListVC.m; sourceTree = "<group>"; };
+		2393DD412233CB0C00F027EF /* AudioListVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioListVC.h; sourceTree = "<group>"; };
+		2393DD432233CBD900F027EF /* NSDate+Formatter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDate+Formatter.h"; sourceTree = "<group>"; };
+		2393DD442233CBED00F027EF /* NSDate+Formatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Formatter.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +89,18 @@
 		233C40C52230142C00842671 /* CWDemo */ = {
 			isa = PBXGroup;
 			children = (
+				233C40EC223255EC00842671 /* Tool */,
+				233C40DF2230BEC200842671 /* View */,
 				233C40C62230142C00842671 /* AppDelegate.h */,
 				233C40C72230142C00842671 /* AppDelegate.m */,
 				233C40C92230142C00842671 /* ViewController.h */,
 				233C40CA2230142C00842671 /* ViewController.m */,
+				233C40DC2230BE7400842671 /* RecordingViewController.h */,
+				233C40DD2230BE7400842671 /* RecordingViewController.m */,
+				2393DD412233CB0C00F027EF /* AudioListVC.h */,
+				2393DD402233CB0C00F027EF /* AudioListVC.m */,
+				233C40E62230FC7A00842671 /* PlayViewController.h */,
+				233C40E72230FC7A00842671 /* PlayViewController.m */,
 				233C40CC2230142C00842671 /* Main.storyboard */,
 				233C40CF2230142D00842671 /* Assets.xcassets */,
 				233C40D12230142D00842671 /* LaunchScreen.storyboard */,
@@ -69,6 +108,35 @@
 				233C40D52230142D00842671 /* main.m */,
 			);
 			path = CWDemo;
+			sourceTree = "<group>";
+		};
+		233C40DF2230BEC200842671 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				233C40E02230BEF900842671 /* DrawView.h */,
+				233C40E12230BEF900842671 /* DrawView.m */,
+				233C40E32230BF3C00842671 /* MyBezierPath.h */,
+				233C40E42230BF3C00842671 /* MyBezierPath.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		233C40EC223255EC00842671 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				2393DD392232827C00F027EF /* Conf.h */,
+				2393DD36223281C400F027EF /* FileManager.h */,
+				2393DD37223281C400F027EF /* FileManager.m */,
+				233C40ED2232561D00842671 /* AudioManager.h */,
+				233C40EE2232561D00842671 /* AudioManager.m */,
+				2393DD3E2233A85800F027EF /* UIToast.h */,
+				2393DD3D2233A85800F027EF /* UIToast.m */,
+				233C40E922315F6000842671 /* PlayAnimationClass.h */,
+				233C40EA22315F6000842671 /* PlayAnimationClass.m */,
+				2393DD432233CBD900F027EF /* NSDate+Formatter.h */,
+				2393DD442233CBED00F027EF /* NSDate+Formatter.m */,
+			);
+			path = Tool;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,9 +209,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				233C40EF2232561D00842671 /* AudioManager.m in Sources */,
+				233C40DE2230BE7400842671 /* RecordingViewController.m in Sources */,
+				233C40E52230BF3C00842671 /* MyBezierPath.m in Sources */,
+				2393DD422233CB0C00F027EF /* AudioListVC.m in Sources */,
+				2393DD38223281C400F027EF /* FileManager.m in Sources */,
 				233C40CB2230142C00842671 /* ViewController.m in Sources */,
+				2393DD3F2233A85800F027EF /* UIToast.m in Sources */,
+				233C40EB22315F6000842671 /* PlayAnimationClass.m in Sources */,
+				2393DD452233CBED00F027EF /* NSDate+Formatter.m in Sources */,
 				233C40D62230142D00842671 /* main.m in Sources */,
 				233C40C82230142C00842671 /* AppDelegate.m in Sources */,
+				233C40E22230BEF900842671 /* DrawView.m in Sources */,
+				233C40E82230FC7A00842671 /* PlayViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,15 +364,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = TMHG22C2C5;
+				DEVELOPMENT_TEAM = 9J43SA9575;
 				INFOPLIST_FILE = CWDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = SH.CWDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = SH.CWDemo.cn;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -303,15 +382,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = TMHG22C2C5;
+				DEVELOPMENT_TEAM = 9J43SA9575;
 				INFOPLIST_FILE = CWDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = SH.CWDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = SH.CWDemo.cn;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

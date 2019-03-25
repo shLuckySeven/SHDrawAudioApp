@@ -16,8 +16,19 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+//    id __weak obj =[NSMutableArray arrayWithObjects:@"1",@"2", nil];
+//    NSLog(@"%@",obj);
+//    [obj addObject:@"3"];
+//    NSLog(@"%@",obj);
+    self addObserver:<#(nonnull NSObject *)#> forKeyPath:<#(nonnull NSString *)#> options:<#(NSKeyValueObservingOptions)#> context:<#(nullable void *)#>
+    
 }
-
+//开始录制按钮点击事件
+- (IBAction)startRecordingBtnClick:(id)sender {
+    NSLog(@"%s",__func__);
+}
+- (IBAction)playClick:(id)sender {
+    NSLog(@"%s",__func__);
+}
 
 @end
