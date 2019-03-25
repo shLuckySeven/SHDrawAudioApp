@@ -18,7 +18,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-    //注册路径
+    //注册路径，不然后面的音频保存会失败！！！
     [[FileManager manager] createAudiosFolder];
     return YES;
 }
